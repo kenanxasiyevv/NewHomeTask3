@@ -8,10 +8,6 @@ namespace NewHomeTask1
         {
             Console.Write("Eded Daxil Et: ");
             double number = double.Parse(Console.ReadLine());
-           
-            decimal kesr, tam;
-            tam = (int)number;
-            kesr = (decimal)number - tam;
             number = number * 1000;
             int count = (int)Math.Log10(number);
             decimal reverseNumber = 0;
